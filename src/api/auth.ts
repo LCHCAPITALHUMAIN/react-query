@@ -15,5 +15,7 @@ export const useGetProfile = () => {
     undefined,
     { retry: false }
   );
+  // eslint-disable-next-line
+  console.log({context});
   return { ...context, data: context.data?.user };
 };

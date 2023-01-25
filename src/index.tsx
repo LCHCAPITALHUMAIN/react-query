@@ -5,10 +5,8 @@ import './index.css';
 import App from './App';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import 'react-toastify/dist/ReactToastify.css';
-import { initializeMockAdapter } from './utils/mockApi';
-import { ToastContainer } from 'react-toastify';
 
-initializeMockAdapter();
+import { ToastContainer } from 'react-toastify';
 
 const queryClient = new QueryClient();
 

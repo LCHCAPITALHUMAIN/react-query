@@ -1,6 +1,6 @@
 export const apiRoutes = {
-  getTokenByPassword: '/api/getTokenByPassword',
-  getProfile: '/api/getProfile',
+  getTokenByPassword: 'https://oauth.inpixio.com/api/token',
+  getProfile: 'https://myaccount.inpixio.com/account/profile/?',
   getUserList: '/api/getUserList',
   appointment: '/api/appointment/:id',
   getServices: '/api/getServices',

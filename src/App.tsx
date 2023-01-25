@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     if (error) {
-      history.replace(pageRoutes.auth);
+      // history.replace(pageRoutes.auth);
     }
   }, [error]);
 
